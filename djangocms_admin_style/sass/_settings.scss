@@ -19,10 +19,10 @@ $warning-color-light: #ffc600;
 $warning-color: #ffb400;
 $warning-color-dark: #ffa800;
 
-$error-color-ultralight: #fff3f3;
-$error-color-light: #ef4a4a;
-$error-color: #e80101;
-$error-color-dark: #d50101;
+$error-color-ultralight: lighten(#e84d5b, 10%);
+$error-color-light: lighten(#e84d5b, 5%);
+$error-color: #e84d5b;
+$error-color-dark: darken(#e84d5b, 20%);
 
 $inactive-color: #ccc;
 
@@ -31,16 +31,16 @@ $inactive-color: #ccc;
 $background-color-white: #fff;
 $background-color-ultralight: #fcfcfc;
 $background-color-light: #f1f1f1;
-$background-color-medium: #464b50 ;
-$background-color-dark: #595f65;
-$background-color-highlight: #f6fcff;
+$background-color-medium: #0f2d40;
+$background-color-dark: #194759;
+$background-color-highlight: #d1f9ff;
 $background-color-transparent: rgba(255,255,255, .2);
 
 
 $background-color-ok-light: #e6f1bf;
 $background-color-ok: #d3e1a3;
 $background-color-fail: #f2d1cf;
-$background-color-highlighter: #f1faff;
+$background-color-highlighter: #d1f9ff;
 
 $button-font-color-yellow: #fff;
 $butteansoon-font-color-yellow-hover: #fff;
